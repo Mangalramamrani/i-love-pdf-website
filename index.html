@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- nabar  -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="logo">
+                <a href="./index.html"><img src="./Assets/Images/ilovepdf.svg" alt=""></a>
+            </div>
+            <div class="show-on-mobile">
+                <a href="#" id="menu-toggle">ALL PDF TOOLS <i class="ri-arrow-drop-down-fill"></i></a>
+                <div class="dropdown">
+                    <div class="category">
+                        <h3>ORGANIZE PDF</h3>
+                        <ul>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Merge PDF</a></li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Split PDF</a></li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Remove pages</a>
+                            </li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Extract pages</a>
+                            </li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Organize PDF</a>
+                            </li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Scan to PDF</a></li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>OPTIMIZE PDF</h3>
+                        <ul>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Compress PDF</a>
+                            </li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Repair PDF</a></li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> OCR PDF</a></li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>CONVERT TO PDF</h3>
+                        <ul>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> JPG to PDF</a></li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> WORD to PDF</a></li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> POWERPOINT to
+                                    PDF</a></li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> EXCEL to PDF</a>
+                            </li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> HTML to PDF</a></li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>CONVERT FROM PDF</h3>
+                        <ul>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> PDF to JPG</a></li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> PDF to WORD</a></li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> PDF to
+                                    POWERPOINT</a></li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> PDF to EXCEL</a>
+                            </li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> PDF to PDF/A</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>EDIT PDF</h3>
+                        <ul>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Rotate PDF</a></li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Add page numbers</a>
+                            </li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Add watermark</a>
+                            </li>
+                            <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Edit PDF</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu-item"><a href="#">MERGE PDF</a></div>
+                <div class="menu-item"><a href="#">SPLIT PDF</a></div>
+                <div class="menu-item"><a href="#">COMPRESS PDF</a></div>
+                <div class="menu-item">
+                    <a href="#">CONVERT PDF <i class="ri-arrow-down-s-fill"></i></a>
+                    <div class="dropdown">
+                        <div class="category">
+                            <h3>ORGANIZE PDF</h3>
+                            <ul>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Merge PDF</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Split PDF</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Remove pages</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Extract pages</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Organize PDF</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Scan to PDF</a></li>
+                            </ul>
+                        </div>
+                        <div class="category">
+                            <h3>OPTIMIZE PDF</h3>
+                            <ul>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Compress PDF</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Repair PDF</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> OCR PDF</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-item">
+                    <a href="#">ALL PDF TOOLS <i class="ri-arrow-down-s-fill"></i></a>
+                    <div class="dropdown">
+                        <div class="category">
+                            <h3>ORGANIZE PDF</h3>
+                            <ul>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Merge PDF</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Split PDF</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Remove pages</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Extract pages</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Organize PDF</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Scan to PDF</a></li>
+                            </ul>
+                        </div>
+                        <div class="category">
+                            <h3>OPTIMIZE PDF</h3>
+                            <ul>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Compress PDF</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Repair PDF</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> OCR PDF</a></li>
+                            </ul>
+                        </div>
+                        <div class="category">
+                            <h3>CONVERT TO PDF</h3>
+                            <ul>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> JPG to PDF</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> WORD to PDF</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> POWERPOINT to
+                                        PDF</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> EXCEL to PDF</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> HTML to PDF</a></li>
+                            </ul>
+                        </div>
+                        <div class="category">
+                            <h3>CONVERT FROM PDF</h3>
+                            <ul>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> PDF to JPG</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> PDF to WORD</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> PDF to
+                                        POWERPOINT</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> PDF to EXCEL</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> PDF to PDF/A</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="category">
+                            <h3>EDIT PDF</h3>
+                            <ul>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Rotate PDF</a></li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Add page numbers</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Add watermark</a>
+                                </li>
+                                <li><a href="#"><img src="./Assets/Images/svgexport-24.svg" alt=""> Edit PDF</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="icon"><img src="./Assets/Images/svgexport-18.svg" alt=""></div>
+            <a href="#" class="login">Login</a>
+            <a href="#" class="signup">Sign up</a>
+            <div class="hamburger">
+                <div class="container">
+                    <i class="ri-menu-line" id="hamburger-icon"></i>
+                    <div class="dropdown">
+                        <ul class="nav-menu">
+                            <li class="nav-item"><a href="#" class="nav-link"><i class="ri-home-7-line"></i> Home</a>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link"><i class="ri-projector-line"></i>
+                                    Product</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"><i class="ri-check-double-line"></i>
+                                    Solutions</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"><i
+                                        class="ri-money-dollar-circle-line"></i> Pricing</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"><i
+                                        class="ri-git-repository-private-fill"></i> Security</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"><i class="ri-global-fill"></i>
+                                    Language</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"><i class="ri-questionnaire-fill"></i>
+                                    Help</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nihil earum, possimus dolore
+                        molestias provident odio repellat molestiae, voluptatibus laudantium aperiam, debitis porro?
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="hero">
+        <div class="hero-heading">
+            <h1>Every tool you need to work with PDFs in one place</h1>
+            <p>Every tool you need to use PDFs, at your fingertips. All are 100% FREE and easy to use! Merge, split,
+                compress, convert, rotate, unlock and watermark PDFs with just a few clicks.</p>
+        </div>
+        <div class="cards-container">
+            <a href="./mergepage.html">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-2.svg" alt="">
+                    <h2>Merge PDF</h2>
+                    <p>Combine PDFs in the order you want with the easiest PDF merger available.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-3.svg" alt="">
+                    <h2>Split PDF</h2>
+                    <p>Split a PDF file by page or a whole set for easy conversion into independent PDF files.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-4.svg" alt="">
+                    <h2>Compress PDF</h2>
+                    <p>Reduce file size while optimizing for maximal PDF quality.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-5.svg" alt="">
+                    <h2>PDF to Word</h2>
+                    <p>Easily convert PDF files into easy to edit DOC and DOCX documents. The converted Word document is
+                        almost 100% accurate.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-6.svg" alt="">
+                    <h2>PDF to PowerPoint</h2>
+                    <p>Turn your PDF files into easy to edit PPT and PPTX slideshows.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-7.svg" alt="">
+                    <h2>PDF to Excel</h2>
+                    <p>Pull data straight from PDFs into Excel spreadsheets in a few short seconds.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-8.svg" alt="">
+                    <h2>Word to PDF</h2>
+                    <p>Make DOC and DOCX files easy to read by converting them to PDF.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-9.svg" alt="">
+                    <h2>PowerPoint to PDF</h2>
+                    <p>Make PPT and PPTX slideshows easy to view by converting them to PDF.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-10.svg" alt="">
+                    <h2>Excel to PDF</h2>
+                    <p>Make EXCEL spreadsheets easy to read by converting them to PDF.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-11.svg" alt="">
+                    <h2>Edit PDF</h2>
+                    <p>Add text, images, shapes or freehand annotation to a PDF document. Edit the size, font, and color
+                        of the added content.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-12.svg" alt="">
+                    <h2>PDF to JPG</h2>
+                    <p>Convert each PDF page into a JPG or extract all images contained in a PDF.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-13.svg" alt="">
+                    <h2>JPG to PDF</h2>
+                    <p>Convert JPG images to PDF in seconds. Easily adjust orientation and margins.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-14.svg" alt="">
+                    <h2>Sign PDF</h2>
+                    <p>Sign yourself or request electronic signatures from others.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-15.svg" alt="">
+                    <h2>Watermark</h2>
+                    <p>Stamp an image or text over your PDF in seconds. Choose the typography, transparency and
+                        position.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-16.svg" alt="">
+                    <h2>Rotate PDF</h2>
+                    <p>Rotate your PDFs the way you need them. You can even rotate multiple PDFs at once!</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-17.svg" alt="">
+                    <h2>HTML to PDF</h2>
+                    <p>Convert webpages in HTML to PDF. Copy and paste the URL of the page you want and convert it to
+                        PDF with a click.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-18.svg" alt="">
+                    <h2>Unlock PDF</h2>
+                    <p>Remove PDF password security, giving you the freedom to use your PDFs as you want.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-19.svg" alt="">
+                    <h2>Protect PDF</h2>
+                    <p>Protect PDF files with a password. Encrypt PDF documents to prevent unauthorized access.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-20.svg" alt="">
+                    <h2>Organize PDF</h2>
+                    <p>Sort pages of your PDF file however you like. Delete PDF pages or add pages to your document at
+                        your convenience.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-21.svg" alt="">
+                    <h2>PDF to PDF/A</h2>
+                    <p>Transform your PDF to PDF/A, the ISO-standardized version of PDF for long-term archiving. Your
+                        PDF will preserve formatting when accessed in the future.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-22.svg" alt="">
+                    <h2>Repair PDF</h2>
+                    <p>Repair a damaged PDF and recover data from corrupt PDF. Fix PDF files with our Repair tool.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-23.svg" alt="">
+                    <h2>Page numbers</h2>
+                    <p>Add page numbers into PDFs with ease. Choose positions, dimensions, typography.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-24.svg" alt="">
+                    <h2>Scan to PDF</h2>
+                    <p>Capture scans from your mobile device and send them instantly to your browser.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-25.svg" alt="">
+                    <h2>OCR PDF</h2>
+                    <p>Easily convert scanned PDF into searchable and selectable documents.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-26.svg" alt="">
+                    <h2>Compare PDF</h2>
+                    <p>Show a side-by-side document comparison and easily spot changes between different versions.</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="./Assets/Images/svgexport-27.svg" alt="">
+                    <h2>Redact PDF</h2>
+                    <p>Redact text and graphics to permanently remove sensitive information from PDF.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+
+    <section class="solutions-section">
+        <h2 class="solutions-heading">Looking for another solution?</h2>
+        <div class="solutions-container">
+            <div class="solution-card">
+                <h3>iLovePDF Desktop</h3>
+                <p>Download the <a href="#">iLovePDF Desktop</a> App to work with your favorite PDF tools on your Mac or
+                    Windows PC. Get a lightweight PDF app that helps you process heavy PDF tasks offline in seconds.</p>
+            </div>
+            <div class="solution-card">
+                <h3>iLovePDF Mobile</h3>
+                <p>Get the <a href="#">iLovePDF Mobile</a> App to manage documents remotely or on the move. Turn your
+                    Android or iPhone device into a PDF Editor & Scanner to annotate, sign, and share documents with
+                    ease.</p>
+            </div>
+            <div class="solution-card">
+                <h3>iLoveIMG</h3>
+                <p><a href="#">iLoveIMG</a> is the web app that helps you modify images in bulk for free. Crop, resize,
+                    compress, convert, and more. All the tools you need to enhance your images in just a few clicks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust-section">
+        <h2 class="trust-heading">The PDF software trusted by millions of users</h2>
+        <p class="trust-description">iLovePDF is your number one web app for editing PDF with ease. Enjoy all the tools
+            you need to work <br> efficiently with your digital documents while keeping your data safe and secure.</p>
+        <div class="trust-logos">
+            <img src="./Assets/Images/iso.svg" alt="ISO Certification">
+            <img src="./Assets/Images/ssl.svg" alt="Secure SSL Encryption">
+            <img src="./Assets/Images/pdf.svg" alt="PDF Association">
+        </div>
+    </section>
+
+
+
+    <section class="premium-section">
+        <div class="premium-content">
+            <h2 class="premium-title">Get more with Premium</h2>
+            <p class="premium-description">
+                Complete projects faster with batch file processing, convert scanned documents with OCR and e-sign your
+                business agreements.
+            </p>
+            <button class="premium-button">Get Premium</button>
+        </div>
+        <div class="premium-image">
+            <img src="./Assets/Images/svgexport-28.svg" alt="Premium Logo">
+        </div>
+    </section>
+
+
+
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 class="footer-title">ILOVEPDF</h3>
+                <div class="footer-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Tools</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">PRODUCT</h3>
+                <ul class="footer-list">
+                    <li><a href="#">iLovePDF Desktop</a></li>
+                    <li><a href="#">iLovePDF Mobile</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">iloveimg.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">SOLUTIONS</h3>
+                <ul class="footer-list">
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Education</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">COMPANY</h3>
+                <ul class="footer-list">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Legal & Privacy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-apps">
+            <img src="./Assets/Images/google_play.svg" alt="Google Play">
+            <img src="./Assets/Images/app_store.svg" alt="App Store">
+        </div>
+
+        <hr>
+        <div class="footer-bottom">
+            <div class="footer-language">
+                <i class="ri-global-fill"></i>
+                <select>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                    <option value="de">Deutsch</option>
+                    <option value="zh">中文</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </div>
+            
+            <div class="footer-copyright">
+                © iLovePDF 2025 ® - Your PDF Editor
+            </div>
+            <div class="footer-social">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="ri-youtube-fill"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                </div>       
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
